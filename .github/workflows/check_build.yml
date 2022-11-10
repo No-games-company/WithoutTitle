@@ -6,7 +6,7 @@ on:
   push: 
 
 concurrency: 
-  group: ${{ github.ref }}
+  group: Build for ${{ matrix.targetPlatform }}
   cancel-in-progress: true
 
 jobs:
