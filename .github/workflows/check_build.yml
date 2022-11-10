@@ -1,10 +1,8 @@
-name: Build project
+name: Check correct build before merging
 
 on:
-  push:
-    branches:
-       - main
   pull_request:
+    types: [opened, edited, reopened
 
 jobs:
   buildForAllSupportedPlatforms:
@@ -18,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          ref: ${GITHUB_REF}
           lfs: true
       - uses: actions/cache@v2
         with:
@@ -30,7 +28,3 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Build-${{ matrix.targetPlatform }}
-          path: build/${{ matrix.targetPlatform }}
