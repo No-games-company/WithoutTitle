@@ -6,12 +6,12 @@ on:
   push: 
 
 concurrency: 
-  group: Build for StandaloneWindows64
+  group: Build for StandaloneWindows64 - ${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   buildForAllSupportedPlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
+    name: Build for ${{ matrix.targetPlatform }} - ${{ github.ref }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
