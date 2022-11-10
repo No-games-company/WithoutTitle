@@ -6,7 +6,7 @@ on:
   push: 
 
 concurrency: 
-  group: Build for ${{ matrix.targetPlatform }}
+  group: Build for StandaloneWindows64
   cancel-in-progress: true
 
 jobs:
