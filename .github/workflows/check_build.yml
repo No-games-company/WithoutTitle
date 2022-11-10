@@ -3,6 +3,7 @@ name: Check correct build before merging
 on:
   pull_request:
     types: [opened, edited, reopened]
+  push: 
 
 jobs:
   buildForAllSupportedPlatforms:
