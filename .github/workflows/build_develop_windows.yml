@@ -1,5 +1,8 @@
 name: Build project for testing
 
+on:
+  workflow_dispatch: {}
+
 jobs:
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
