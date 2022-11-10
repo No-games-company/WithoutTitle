@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${GITHUB_REF}
+          ref: ${{ github.head_ref }}
           lfs: true
       - uses: actions/cache@v2
         with:
