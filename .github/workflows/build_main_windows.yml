@@ -1,7 +1,9 @@
 name: Build project for testing
 
 on:
-  push: main
+  push: 
+    branches:
+      - main
 
 jobs:
   buildForAllSupportedPlatforms:
