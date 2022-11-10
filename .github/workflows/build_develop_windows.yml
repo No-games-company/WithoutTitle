@@ -10,19 +10,19 @@ jobs:
         targetPlatform:
           - StandaloneWindows64
     steps:
-      - name: Checkout develop
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        name: Checkout develop
         with:
           ref: develop
           lfs: true
-      - name: Get and save cache for build
       - uses: actions/cache@v2
+        name: Get and save cache for build
         with:
           path: Library
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
-      - name: Build a unity project
-        uses: game-ci/unity-builder@v2
+      - uses: game-ci/unity-builder@v2
+        name: Build a unity project  
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
