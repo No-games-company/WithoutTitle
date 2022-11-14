@@ -12,6 +12,8 @@ public class CameraMovement : MonoBehaviour
     private void LateUpdate()
     {
 
-        body.MovePosition(player.GetComponent<Rigidbody2D>().position + action.actionMove.ReadValue<Vector2>() * 5f * Time.fixedDeltaTime);
+        body.MovePosition(
+            player.GetComponent<Rigidbody2D>().position + 
+            action.actionMove.ReadValue<Vector2>() * 5f * Time.fixedDeltaTime);
     }
 }
