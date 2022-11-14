@@ -5,7 +5,8 @@ namespace BombermanScripts
     public class Movement : MonoBehaviour
     {
 
-        private float speed = 5f;
+        private float speed = 2f;
+        private float speedRunning = 5f;
 
         private Rigidbody2D body;
 
@@ -23,7 +24,7 @@ namespace BombermanScripts
             if (inputAction.actionMove.IsPressed())
             {
 
-                var newPosition = inputAction.actionMove.ReadValue<Vector2>();
+                var newPosition = inputAction.actionMove.ReadValue<Vector2>().normalized;
 
                 body.MovePosition(body.position + newPosition * speed * newPosition.magnitude * Time.fixedDeltaTime);
             }
