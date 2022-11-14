@@ -8,10 +8,12 @@ namespace BombermanScripts
 
         private const string MOVE = "Move";
         private const string PLAYER = "Player";
+        private const string RUN = "Run";
 
         private PlayerInput playerInput;
 
         public InputAction actionMove { get; private set; }
+        public InputAction actionRun { get; private set; }
 
         void Awake()
         {
@@ -19,6 +21,9 @@ namespace BombermanScripts
 
             actionMove = playerInput.actions.FindActionMap(PLAYER).FindAction(MOVE);
             actionMove.Enable();
+
+            actionRun = playerInput.actions.FindActionMap(PLAYER).FindAction(RUN);
+            actionRun.Enable();
         }
     }
 }

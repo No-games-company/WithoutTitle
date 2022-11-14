@@ -19,6 +19,7 @@ public class MovementAnimation : MonoBehaviour
 
     private const string IDLE = "Idle";
     private const string WALK = "Walk";
+    private const string RUN = "Run";
 
     private string moveState = DOWN;
 
@@ -119,6 +120,10 @@ public class MovementAnimation : MonoBehaviour
     {
         moveState = state;
 
-        animator.Play(WALK + state);
+        if (inputAction.actionRun.IsPressed())
+        {
+
+            animator.Play(RUN + state);
+        } else animator.Play(WALK + state);
     }
 }

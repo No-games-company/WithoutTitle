@@ -24,10 +24,20 @@ namespace BombermanScripts
             if (inputAction.actionMove.IsPressed())
             {
 
-                var newPosition = inputAction.actionMove.ReadValue<Vector2>().normalized;
+                if (inputAction.actionRun.IsPressed())
+                {
 
-                body.MovePosition(body.position + newPosition * speed * newPosition.magnitude * Time.fixedDeltaTime);
-            }
+                    var newPosition = inputAction.actionMove.ReadValue<Vector2>().normalized;
+
+                    body.MovePosition(body.position + newPosition * speedRunning * newPosition.magnitude * Time.fixedDeltaTime);
+                } else
+                {
+
+                    var newPosition = inputAction.actionMove.ReadValue<Vector2>().normalized;
+
+                    body.MovePosition(body.position + newPosition * speed * newPosition.magnitude * Time.fixedDeltaTime);
+                }
+            } 
            
         }
     }
