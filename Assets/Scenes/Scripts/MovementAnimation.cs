@@ -1,11 +1,10 @@
 using BombermanScripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class MovementAnimation : MonoBehaviour
 {
-
-    private const float DIAGONAL_MOVE = 0.71f;
 
     private const string UP = "Up";
     private const string DOWN = "Down";
@@ -26,6 +25,11 @@ public class MovementAnimation : MonoBehaviour
     private MovementInputAction inputAction;
     private Animator animator;
 
+    private const int rayVisionSize = 100;
+
+    private int halfWidth = Screen.width / 2;
+    private int halfHeight = Screen.height / 2;
+
     private void Awake()
     {
 
@@ -41,7 +45,123 @@ public class MovementAnimation : MonoBehaviour
 
     private void FixedUpdate()
     {
-        CheckPosition();
+
+        if (inputAction.actionAlt.IsPressed())
+        {
+
+            Debug.Log(halfHeight);
+            Debug.Log(halfWidth);
+            switch (Mouse.current.position.ReadValue())
+            {
+
+                case Vector2 vector when vector.x < halfWidth + rayVisionSize && vector.x > halfWidth - rayVisionSize && vector.y > halfHeight + rayVisionSize:
+                    {
+                        ChangeState(UP);
+                        return;
+                    }
+
+                case Vector2 vector when vector.x < halfWidth + rayVisionSize && vector.x > halfWidth - rayVisionSize && vector.y < halfHeight - rayVisionSize:
+                    {
+                        ChangeState(DOWN);
+                        return;
+                    }
+
+                case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y < halfHeight + rayVisionSize && vector.y > halfHeight - rayVisionSize:
+                    {
+                        ChangeState(LEFT);
+                        return;
+                    }
+
+                case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y < halfHeight + rayVisionSize && vector.y > halfHeight - rayVisionSize:
+                    {
+                        ChangeState(RIGHT);
+                        return;
+                    }
+
+                case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y > halfHeight + rayVisionSize:
+                    {
+                        ChangeState(LEFT_UP);
+                        return;
+                    }
+
+                case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y < halfHeight - rayVisionSize:
+                    {
+                        ChangeState(LEFT_DOWN);
+                        return;
+                    }
+
+                case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y < halfHeight - rayVisionSize:
+                    {
+                        ChangeState(RIGHT_DOWN);
+                        return;
+                    }
+
+                case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y > halfHeight + rayVisionSize:
+                    {
+                        ChangeState(RIGHT_UP);
+                        return;
+                    }
+
+
+
+                    /*case Vector3 vector when vector.Equals(Vector2.down):
+                        {
+                            Debug.Log(newPosition);
+                            ChangeState(DOWN);
+                            return;
+                        }
+
+                    case Vector3 vector when vector.Equals(Vector2.right):
+                        {
+                            Debug.Log(newPosition);
+                            ChangeState(RIGHT);
+                            return;
+                        }
+
+                    case Vector3 vector when vector.Equals(Vector2.left):
+                        {
+                            Debug.Log(newPosition);
+                            ChangeState(LEFT);
+                            return;
+                        }
+
+                    case Vector3 vector when vector.x > 0 && vector.x < 1 && vector.y > 0 && vector.y < 1:
+                        {
+                            Debug.Log(newPosition);
+                            ChangeState(RIGHT_UP);
+                            return;
+                        }
+
+                    case Vector3 vector when vector.x > 0 && vector.x < 1 && vector.y < 0 && vector.y > -1:
+                        {
+                            Debug.Log(newPosition);
+                            ChangeState(RIGHT_DOWN);
+                            return;
+                        }
+
+                    case Vector3 vector when vector.x < 0 && vector.x > -1 && vector.y > 0 && vector.y < 1:
+                        {
+                            Debug.Log(newPosition);
+                            ChangeState(LEFT_UP);
+                            return;
+                        }
+
+                    case Vector3 vector when vector.x < 0 && vector.x > -1 && vector.y < 0 && vector.y > -1:
+                        {
+                            Debug.Log(newPosition);
+                            ChangeState(LEFT_DOWN);
+                            return;
+                        }
+
+                    case Vector3 vector when vector.Equals(Vector2.zero):
+                        {
+                            SetIDle();
+                            return;
+                        }*/
+            }
+
+        }
+        else CheckPosition();
     }
 
     private void CheckPosition()
@@ -120,10 +240,11 @@ public class MovementAnimation : MonoBehaviour
     {
         moveState = state;
 
-        if (inputAction.actionRun.IsPressed())
-        {
-
+        if (inputAction.actionAlt.IsPressed())
+            animator.Play(IDLE + state);
+        else if (inputAction.actionRun.IsPressed())
             animator.Play(RUN + state);
-        } else animator.Play(WALK + state);
+        else if (inputAction.actionMove.IsPressed())
+            animator.Play(WALK + state);
     }
 }

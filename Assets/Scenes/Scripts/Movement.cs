@@ -6,7 +6,7 @@ namespace BombermanScripts
     {
 
         private float speed = 2f;
-        private float speedRunning = 5f;
+        private float speedRunning = 3.5f;
 
         private Rigidbody2D body;
 
@@ -21,7 +21,7 @@ namespace BombermanScripts
 
         private void FixedUpdate()
         {
-            if (inputAction.actionMove.IsPressed())
+            if (inputAction.actionMove.IsPressed() && !inputAction.actionAlt.IsPressed())
             {
 
                 if (inputAction.actionRun.IsPressed())

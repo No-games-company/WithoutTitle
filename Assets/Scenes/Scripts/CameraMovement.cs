@@ -11,9 +11,7 @@ public class CameraMovement : MonoBehaviour
 
     private void LateUpdate()
     {
-
-        body.MovePosition(
-            player.GetComponent<Rigidbody2D>().position + 
-            action.actionMove.ReadValue<Vector2>() * 5f * Time.fixedDeltaTime);
+        if (action.actionMove.IsPressed() && !action.actionAlt.IsPressed())
+            body.MovePosition(player.GetComponent<Rigidbody2D>().position);
     }
 }
