@@ -1,5 +1,4 @@
-name: Build project (production)
-
+name: Build project for concrete branch
 on:
   workflow_dispatch: {}
 
