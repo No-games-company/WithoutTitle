@@ -41,9 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tilemap
+    uniqueID: 4119027175
+    locked: 0
+  - name: Walls
+    uniqueID: 4271678775
+    locked: 0
   - name: Player
     uniqueID: 3398283057
     locked: 0
-  - name: Tilemap
-    uniqueID: 4119027175
+  - name: WallBottom
+    uniqueID: 3893550165
     locked: 0

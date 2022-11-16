@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Untitled-1
+  m_Name: Untitled-1 1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: e3728851e1404db4a8e35b3c89c730af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb525c52ea3233b4098b2da05415b0a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,4 +33,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1

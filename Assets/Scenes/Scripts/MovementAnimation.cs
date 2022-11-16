@@ -1,7 +1,6 @@
 using BombermanScripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Controls;
 
 public class MovementAnimation : MonoBehaviour
 {
@@ -49,8 +48,6 @@ public class MovementAnimation : MonoBehaviour
         if (inputAction.actionAlt.IsPressed())
         {
 
-            Debug.Log(halfHeight);
-            Debug.Log(halfWidth);
             switch (Mouse.current.position.ReadValue())
             {
 
@@ -101,63 +98,6 @@ public class MovementAnimation : MonoBehaviour
                         ChangeState(RIGHT_UP);
                         return;
                     }
-
-
-
-                    /*case Vector3 vector when vector.Equals(Vector2.down):
-                        {
-                            Debug.Log(newPosition);
-                            ChangeState(DOWN);
-                            return;
-                        }
-
-                    case Vector3 vector when vector.Equals(Vector2.right):
-                        {
-                            Debug.Log(newPosition);
-                            ChangeState(RIGHT);
-                            return;
-                        }
-
-                    case Vector3 vector when vector.Equals(Vector2.left):
-                        {
-                            Debug.Log(newPosition);
-                            ChangeState(LEFT);
-                            return;
-                        }
-
-                    case Vector3 vector when vector.x > 0 && vector.x < 1 && vector.y > 0 && vector.y < 1:
-                        {
-                            Debug.Log(newPosition);
-                            ChangeState(RIGHT_UP);
-                            return;
-                        }
-
-                    case Vector3 vector when vector.x > 0 && vector.x < 1 && vector.y < 0 && vector.y > -1:
-                        {
-                            Debug.Log(newPosition);
-                            ChangeState(RIGHT_DOWN);
-                            return;
-                        }
-
-                    case Vector3 vector when vector.x < 0 && vector.x > -1 && vector.y > 0 && vector.y < 1:
-                        {
-                            Debug.Log(newPosition);
-                            ChangeState(LEFT_UP);
-                            return;
-                        }
-
-                    case Vector3 vector when vector.x < 0 && vector.x > -1 && vector.y < 0 && vector.y > -1:
-                        {
-                            Debug.Log(newPosition);
-                            ChangeState(LEFT_DOWN);
-                            return;
-                        }
-
-                    case Vector3 vector when vector.Equals(Vector2.zero):
-                        {
-                            SetIDle();
-                            return;
-                        }*/
             }
 
         }
