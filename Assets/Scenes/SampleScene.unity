@@ -321,10 +321,10 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
+  m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 519420031}
+  m_Camera: {fileID: 0}
 --- !u!114 &519420038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10781,6 +10781,10 @@ PrefabInstance:
     - target: {fileID: 1836586496568081674, guid: 5e0a5431c6f995a409138af71a82c2fa, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836586496568081676, guid: 5e0a5431c6f995a409138af71a82c2fa, type: 3}
+      propertyPath: m_DefaultControlScheme
+      value: Keyboard&Mouse
       objectReference: {fileID: 0}
     - target: {fileID: 1836586496568081679, guid: 5e0a5431c6f995a409138af71a82c2fa, type: 3}
       propertyPath: m_RootOrder
