@@ -321,7 +321,7 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
@@ -10784,7 +10784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1836586496568081676, guid: 5e0a5431c6f995a409138af71a82c2fa, type: 3}
       propertyPath: m_DefaultControlScheme
-      value: Keyboard&Mouse
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1836586496568081679, guid: 5e0a5431c6f995a409138af71a82c2fa, type: 3}
       propertyPath: m_RootOrder
