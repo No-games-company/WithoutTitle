@@ -11,6 +11,7 @@ namespace BombermanScripts
         private const string RUN = "Run";
         private const string LOOK = "Look";
         private const string MOUSE_POSITION = "MousePosition";
+        private const string ATTACK = "Attack";
 
         private PlayerInput playerInput;
 
@@ -18,6 +19,7 @@ namespace BombermanScripts
         public InputAction actionRun { get; private set; }
         public InputAction actionAlt { get; private set; }
         public InputAction mousePosition { get; private set; }
+        public InputAction attackAction { get; private set; }
 
         void Awake()
         {
@@ -34,6 +36,9 @@ namespace BombermanScripts
 
             mousePosition = playerInput.actions.FindActionMap(PLAYER).FindAction(MOUSE_POSITION);
             mousePosition.Enable();
+
+            attackAction = playerInput.actions.FindActionMap(PLAYER).FindAction(ATTACK);
+            attackAction.Enable();
         }
     }
 }

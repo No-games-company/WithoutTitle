@@ -18,8 +18,11 @@ public class MovementAnimation : MonoBehaviour
     private const string IDLE = "Idle";
     private const string WALK = "Walk";
     private const string RUN = "Run";
+    private const string ATTACK = "Attack";
 
     private string moveState = DOWN;
+
+    private bool isAttack = false;
 
     private MovementInputAction inputAction;
     private Animator animator;
@@ -45,63 +48,70 @@ public class MovementAnimation : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (inputAction.actionAlt.IsPressed())
+        if (isAttack && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+            isAttack = false;
+
+        if (!isAttack)
         {
 
-            switch (Mouse.current.position.ReadValue())
+            if ((inputAction.actionAlt.IsPressed() || inputAction.attackAction.IsPressed()))
             {
 
-                case Vector2 vector when vector.x < halfWidth + rayVisionSize && vector.x > halfWidth - rayVisionSize && vector.y > halfHeight + rayVisionSize:
-                    {
-                        ChangeState(UP);
-                        return;
-                    }
+                switch (Mouse.current.position.ReadValue())
+                {
 
-                case Vector2 vector when vector.x < halfWidth + rayVisionSize && vector.x > halfWidth - rayVisionSize && vector.y < halfHeight - rayVisionSize:
-                    {
-                        ChangeState(DOWN);
-                        return;
-                    }
+                    case Vector2 vector when vector.x < halfWidth + rayVisionSize && vector.x > halfWidth - rayVisionSize && vector.y > halfHeight + rayVisionSize:
+                        {
+                            ChangeState(UP);
+                            return;
+                        }
 
-                case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y < halfHeight + rayVisionSize && vector.y > halfHeight - rayVisionSize:
-                    {
-                        ChangeState(LEFT);
-                        return;
-                    }
+                    case Vector2 vector when vector.x < halfWidth + rayVisionSize && vector.x > halfWidth - rayVisionSize && vector.y < halfHeight - rayVisionSize:
+                        {
+                            ChangeState(DOWN);
+                            return;
+                        }
 
-                case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y < halfHeight + rayVisionSize && vector.y > halfHeight - rayVisionSize:
-                    {
-                        ChangeState(RIGHT);
-                        return;
-                    }
+                    case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y < halfHeight + rayVisionSize && vector.y > halfHeight - rayVisionSize:
+                        {
+                            ChangeState(LEFT);
+                            return;
+                        }
 
-                case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y > halfHeight + rayVisionSize:
-                    {
-                        ChangeState(LEFT_UP);
-                        return;
-                    }
+                    case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y < halfHeight + rayVisionSize && vector.y > halfHeight - rayVisionSize:
+                        {
+                            ChangeState(RIGHT);
+                            return;
+                        }
 
-                case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y < halfHeight - rayVisionSize:
-                    {
-                        ChangeState(LEFT_DOWN);
-                        return;
-                    }
+                    case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y > halfHeight + rayVisionSize:
+                        {
+                            ChangeState(LEFT_UP);
+                            return;
+                        }
 
-                case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y < halfHeight - rayVisionSize:
-                    {
-                        ChangeState(RIGHT_DOWN);
-                        return;
-                    }
+                    case Vector2 vector when vector.x < halfWidth - rayVisionSize && vector.y < halfHeight - rayVisionSize:
+                        {
+                            ChangeState(LEFT_DOWN);
+                            return;
+                        }
 
-                case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y > halfHeight + rayVisionSize:
-                    {
-                        ChangeState(RIGHT_UP);
-                        return;
-                    }
+                    case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y < halfHeight - rayVisionSize:
+                        {
+                            ChangeState(RIGHT_DOWN);
+                            return;
+                        }
+
+                    case Vector2 vector when vector.x > halfWidth + rayVisionSize && vector.y > halfHeight + rayVisionSize:
+                        {
+                            ChangeState(RIGHT_UP);
+                            return;
+                        }
+                }
+
             }
-
+            else CheckPosition();
         }
-        else CheckPosition();
     }
 
     private void CheckPosition()
@@ -114,56 +124,48 @@ public class MovementAnimation : MonoBehaviour
 
             case Vector2 vector when vector.Equals(Vector2.up):
                 {
-                    Debug.Log(newPosition);
                     ChangeState(UP);
                     return;
                 }
 
             case Vector2 vector when vector.Equals(Vector2.down):
                 {
-                    Debug.Log(newPosition);
                     ChangeState(DOWN);
                     return;
                 }
 
             case Vector2 vector when vector.Equals(Vector2.right):
                 {
-                    Debug.Log(newPosition);
                     ChangeState(RIGHT);
                     return;
                 }
 
             case Vector2 vector when vector.Equals(Vector2.left):
                 {
-                    Debug.Log(newPosition);
                     ChangeState(LEFT);
                     return;
                 }
 
             case Vector2 vector when vector.x > 0 && vector.x < 1 && vector.y > 0 && vector.y < 1:
                 {
-                    Debug.Log(newPosition);
                     ChangeState(RIGHT_UP);
                     return;
                 }
 
             case Vector2 vector when vector.x > 0 && vector.x < 1 && vector.y < 0 && vector.y > -1:
                 {
-                    Debug.Log(newPosition);
                     ChangeState(RIGHT_DOWN);
                     return;
                 }
 
             case Vector2 vector when vector.x < 0 && vector.x > -1 && vector.y > 0 && vector.y < 1:
                 {
-                    Debug.Log(newPosition);
                     ChangeState(LEFT_UP);
                     return;
                 }
 
             case Vector2 vector when vector.x < 0 && vector.x > -1 && vector.y < 0 && vector.y > -1:
                 {
-                    Debug.Log(newPosition);
                     ChangeState(LEFT_DOWN);
                     return;
                 }
@@ -182,9 +184,15 @@ public class MovementAnimation : MonoBehaviour
 
         if (inputAction.actionAlt.IsPressed())
             animator.Play(IDLE + state);
+        else if (inputAction.attackAction.IsPressed())
+        {
+            isAttack = true;
+            animator.Play(ATTACK + state);
+        }
         else if (inputAction.actionRun.IsPressed())
             animator.Play(RUN + state);
         else if (inputAction.actionMove.IsPressed())
             animator.Play(WALK + state);
+
     }
 }

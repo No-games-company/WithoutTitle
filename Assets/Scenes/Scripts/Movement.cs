@@ -21,7 +21,7 @@ namespace BombermanScripts
 
         private void FixedUpdate()
         {
-            if (inputAction.actionMove.IsPressed() && !inputAction.actionAlt.IsPressed())
+            if (inputAction.actionMove.IsPressed() && !inputAction.actionAlt.IsPressed() && !inputAction.attackAction.IsPressed())
             {
 
                 if (inputAction.actionRun.IsPressed())
