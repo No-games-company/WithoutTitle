@@ -1,0 +1,2235 @@
+fileFormatVersion: 2
+guid: d5e43bced5d341944ac66b8a78b8f5a8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DiabloWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1e3d34814266c4b81f359162d3c06b
+      internalID: 2085133767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f348e5a583a14b866b5f20be52cab
+      internalID: -790757859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_2
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6838ce2fe1d9b0408f03bd304303671
+      internalID: 1995703574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_3
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b7850ac651cee4993d5927b8823a53
+      internalID: -248636886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e705fc5c8d49a5f45be1cfdfed691c5a
+      internalID: -233904471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_5
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0b75e5150a7f446a3fbf8a7a8cf63b
+      internalID: 161355624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_6
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adc0b77c5b73f14bb2ff2e86d2b14ba
+      internalID: -1467385307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_7
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffdee47006542c45a47bc6103e46b6c
+      internalID: 2078609291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_8
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c566116ab93d6294f8ddee735d48c64a
+      internalID: 1811715105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_9
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c7921f6d9925541bf2367366d17f41
+      internalID: -1534682975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_10
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ff99d93011bf43ab008992b56add5
+      internalID: -1323064598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_11
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 1315.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25227ef1676134e4e814d224f2031fb7
+      internalID: 339907733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29298557fe320f143986a433bf4984a9
+      internalID: -92070319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434f3ff1d526be3409fc19548173e912
+      internalID: -738702167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_14
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffed52d2dd3d724c893d8772b0e036f
+      internalID: 306414284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_15
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fa4092579b45f43bdd9bfb118a44f4
+      internalID: 1486665109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_16
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123773a6adca39f49b5d3067aa734a34
+      internalID: -1432396896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_17
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3918188672312c04fb278766aa046004
+      internalID: 725190473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_18
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb17c6d9b518f439dbd925a579d42a
+      internalID: 650587814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_19
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc08fddbb0257cc44b64a94ee6b3a629
+      internalID: -405774056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_20
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76ab267eda8b4c4881ae0c8093fac87
+      internalID: 762097959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_21
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9a9ee1dbb13404fa68fd5bd4d391cb
+      internalID: 1644513207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_22
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9d9425769f8ca4db8d7fdfffc6c3a1
+      internalID: -1734906231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_23
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 1128.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b29717bdbafe4478ea4d6085f952ae
+      internalID: -1691754013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c757ff7e650d464d8a7f9cccbdc387c
+      internalID: 647539876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b285e4d6205b034fa3327ca42b14f66
+      internalID: 614070031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_26
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43744cf4435420a4f8c17a29a61a9e3c
+      internalID: 636112825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_27
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a912052cab5c542b03f7f4dd6bf6dd
+      internalID: -930095899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_28
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f449e813b28054985363a8094443ea
+      internalID: -295051734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_29
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc78c5ef9e143e445bbd53d5be0783c0
+      internalID: 983932660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_30
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0f2e72e3ffa7440a2a06d02a01e220
+      internalID: -1885759961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_31
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3595cf0b78de7e44f8be0bc6b52d9062
+      internalID: -1164254680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_32
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27072b345222a2418362855df116171
+      internalID: -1775761563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_33
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5135fc1d11b8e304b86e4d37d462f780
+      internalID: -1320242366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_34
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fc3db5cefc536478cc54c5d4a03279
+      internalID: 216668121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_35
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 941.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9b1cd7cea0f8e439ecb3f339b03bba
+      internalID: -938527145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d619fe4a14350f4da1a3ab8c30f86bc
+      internalID: 2077163103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_37
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d288d5122b12348b1b3c58516b9360
+      internalID: 1899518780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_38
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71718f8b210bea642becd761ea6177c7
+      internalID: 1191992901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_39
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482aa320da45b974f8abd8f88133de77
+      internalID: -576100390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_40
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf2eaaa423084d42a11060843aa59d4
+      internalID: 1934808041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_41
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72643326f0fe5f64087b3ec8a9c008c4
+      internalID: 505179790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_42
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb4224fca0a58c42b73cac2443bdc6c
+      internalID: 598857635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_43
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4fb346e3fc5954d9c2a3c2552eaffd
+      internalID: -2032717811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_44
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7136af0dd4b6fe4fa6f62fdc062b749
+      internalID: -757698477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_45
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e18af08aa10057449ec0e85c35c252a
+      internalID: 992378282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_46
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e369317dc4b31b419b2ccc14d8f57d7
+      internalID: -316417215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_47
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 754.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798b8e5ecb691fd4790038a1b0da007b
+      internalID: 1687770247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c1dae51ec5bed4d811210ee8b70bb9
+      internalID: -2095696702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_49
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe755371663ce49b85f025d707a7a5
+      internalID: 933616537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_50
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e574ebba46723434cb4572c1647a3ee8
+      internalID: 403616392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_51
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d45b01e551536459f85ca5ba28f5c0
+      internalID: 298779116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_52
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cff0289771d68840a52e453af01f982
+      internalID: -71983557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_53
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0f9468930e10242aab2a7c51174590
+      internalID: 1882758069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_54
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d32ef4aa5b7e1944b2b48c34db9047d
+      internalID: -901216543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_55
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961b4569484c1cb489abe65fa4f4765b
+      internalID: 764033675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_56
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b32d59cd8fead4a850d3c6687dbcb7
+      internalID: 205311287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_57
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a66c878272964cbf55c3668f6b521
+      internalID: -1567656089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_58
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afffed9fe1b5d394f986ce4be255df3c
+      internalID: -755310487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_59
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 567.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38614301a12d11b44a01bd5cc7f3b7c5
+      internalID: 256669925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc7068690440b24fa666dd945349b90
+      internalID: -451889125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_61
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e195162b5db4d646a975d95138822f4
+      internalID: -688719436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_62
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c975a52552d51d34686067e8c629e06c
+      internalID: 550452091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_63
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d4bfbbba904de44a9b142521c5413a
+      internalID: -559453598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_64
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b73f2c1826e9c48a3533c1998e820f
+      internalID: -522332084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_65
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b5d60aac2e64147b8207b5382d366c
+      internalID: -1327658765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_66
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f389e7d7fb51d4987008a354838c0f
+      internalID: 837377856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_67
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372b4f48ab429944d91546902df4ac51
+      internalID: 1033327318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_68
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad5ab8115ac62c4c870575a49335f2e
+      internalID: 1889377730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_69
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0579a8345b400b49b3c701ac8f2cf6c
+      internalID: 1621522001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_70
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eb1851edcb416449b59f735486843e
+      internalID: 679569563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_71
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 380.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6308aa2a020ee468af337a4585e5de
+      internalID: 1009699490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dcbfe8170ead4499bae45859175d52
+      internalID: -1449691238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_73
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a801b91037d8d244ab8f06d7ba68b5b
+      internalID: 1004245331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_74
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84031c67240f3664496cd7291b363015
+      internalID: -636737969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_75
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a4b6a38b64f784e8bb12fac20cbecb
+      internalID: 1856050995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_76
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8885342d94bd6c94dac6250e3ae508a5
+      internalID: -804705117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_77
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378696a262990c94c88d9eea97bdde36
+      internalID: 1719857924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_78
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9349af0ae5f186b4fb14bf207ee2e8fa
+      internalID: -86999513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_79
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0646169de05bf4cb6c7aa1df9681e7
+      internalID: -1719332400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_80
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8070aada90cd1d743aae52eca58a5d47
+      internalID: -1786176980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_81
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61af9e56355c2a46be7cb94fcc6d948
+      internalID: -68130546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_82
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635d45b7d363a644eaa8967a7242d485
+      internalID: -2099109038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_83
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 193.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5c8777988dcfc47aafc0567ea710e3
+      internalID: 1743560942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb15185815d4e949a9f40de8357cb94
+      internalID: -1699237607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_85
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eaf689ac4d013429e8f4c4065dce29
+      internalID: 1857914408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_86
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee6c6531f98cef47a572897a3ecbf7c
+      internalID: 1807711857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_87
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45baf858a040284280b959b83cbec33
+      internalID: -1190361322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_88
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c258e4435513948b5ced703c12d8a4
+      internalID: 1880665930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_89
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aef0574435439345b7a5d8de9340f4e
+      internalID: 1383405668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_90
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00c4099a435f9d4fb20152719821e1d
+      internalID: 2044260691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_91
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c131eef8f34e2c4d8797863526ae38c
+      internalID: -1341266525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_92
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257e7e818a4f4db41b0e07af39db6c51
+      internalID: 61024316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_93
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772306b0455ae4f4e9af02d1abf20101
+      internalID: -931781933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_94
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce45cc46aee53643bf6ab337498768c
+      internalID: 1407265441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiabloWalk_95
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 6.125
+        width: 293
+        height: 187.875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7733ba2afde50e84da20f791973ffb25
+      internalID: -1208594132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DiabloWalk_42: 598857635
+      DiabloWalk_25: 614070031
+      DiabloWalk_63: -559453598
+      DiabloWalk_91: -1341266525
+      DiabloWalk_47: 1687770247
+      DiabloWalk_56: 205311287
+      DiabloWalk_59: 256669925
+      DiabloWalk_86: 1807711857
+      DiabloWalk_6: -1467385307
+      DiabloWalk_0: 2085133767
+      DiabloWalk_53: 1882758069
+      DiabloWalk_5: 161355624
+      DiabloWalk_27: -930095899
+      DiabloWalk_24: 647539876
+      DiabloWalk_69: 1621522001
+      DiabloWalk_75: 1856050995
+      DiabloWalk_21: 1644513207
+      DiabloWalk_15: 1486665109
+      DiabloWalk_28: -295051734
+      DiabloWalk_18: 650587814
+      DiabloWalk_73: 1004245331
+      DiabloWalk_43: -2032717811
+      DiabloWalk_3: -248636886
+      DiabloWalk_62: 550452091
+      DiabloWalk_71: 1009699490
+      DiabloWalk_54: -901216543
+      DiabloWalk_95: -1208594132
+      DiabloWalk_29: 983932660
+      DiabloWalk_13: -738702167
+      DiabloWalk_22: -1734906231
+      DiabloWalk_45: 992378282
+      DiabloWalk_41: 505179790
+      DiabloWalk_68: 1889377730
+      DiabloWalk_67: 1033327318
+      DiabloWalk_58: -755310487
+      DiabloWalk_19: -405774056
+      DiabloWalk_23: -1691754013
+      DiabloWalk_10: -1323064598
+      DiabloWalk_61: -688719436
+      DiabloWalk_16: -1432396896
+      DiabloWalk_2: 1995703574
+      DiabloWalk_44: -757698477
+      DiabloWalk_7: 2078609291
+      DiabloWalk_64: -522332084
+      DiabloWalk_94: 1407265441
+      DiabloWalk_52: -71983557
+      DiabloWalk_74: -636737969
+      DiabloWalk_66: 837377856
+      DiabloWalk_20: 762097959
+      DiabloWalk_1: -790757859
+      DiabloWalk_38: 1191992901
+      DiabloWalk_40: 1934808041
+      DiabloWalk_87: -1190361322
+      DiabloWalk_55: 764033675
+      DiabloWalk_11: 339907733
+      DiabloWalk_77: 1719857924
+      DiabloWalk_76: -804705117
+      DiabloWalk_83: 1743560942
+      DiabloWalk_14: 306414284
+      DiabloWalk_65: -1327658765
+      DiabloWalk_90: 2044260691
+      DiabloWalk_37: 1899518780
+      DiabloWalk_17: 725190473
+      DiabloWalk_85: 1857914408
+      DiabloWalk_79: -1719332400
+      DiabloWalk_80: -1786176980
+      DiabloWalk_32: -1775761563
+      DiabloWalk_49: 933616537
+      DiabloWalk_60: -451889125
+      DiabloWalk_93: -931781933
+      DiabloWalk_34: 216668121
+      DiabloWalk_12: -92070319
+      DiabloWalk_39: -576100390
+      DiabloWalk_92: 61024316
+      DiabloWalk_51: 298779116
+      DiabloWalk_72: -1449691238
+      DiabloWalk_78: -86999513
+      DiabloWalk_50: 403616392
+      DiabloWalk_30: -1885759961
+      DiabloWalk_88: 1880665930
+      DiabloWalk_8: 1811715105
+      DiabloWalk_70: 679569563
+      DiabloWalk_84: -1699237607
+      DiabloWalk_82: -2099109038
+      DiabloWalk_46: -316417215
+      DiabloWalk_33: -1320242366
+      DiabloWalk_89: 1383405668
+      DiabloWalk_9: -1534682975
+      DiabloWalk_31: -1164254680
+      DiabloWalk_36: 2077163103
+      DiabloWalk_81: -68130546
+      DiabloWalk_4: -233904471
+      DiabloWalk_48: -2095696702
+      DiabloWalk_57: -1567656089
+      DiabloWalk_26: 636112825
+      DiabloWalk_35: -938527145
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
